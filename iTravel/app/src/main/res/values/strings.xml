@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">iTravel</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="email2">Email</string>
+    <string name="password2">password</string>
+    <string name="password3">password</string>
+    <string name="cancel1">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="email3">email3</string>
+    <string name="email1">Email</string>
+    <string name="password4">password</string>
+    <string name="password5">password</string>
+    <string name="email4">email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="am">10:30 - 11:00am</string>
+    <string name="twasija_sacco">Twasija Sacco</string>
+    <string name="rog_sacco">Rog Sacco</string>
+    <string name="msafiri_sacco">Msafiri Sacco</string>
+    <string name="transaction_number">Transaction Number</string>
+    <string name="book">Book</string>
+    <string name="transaction_code">Transaction code</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">LogOut</string>
+    <string name="transaction_code1">Transaction code</string>
+    <string name="register">Register!!</string>
+    <string name="register1">Register!!</string>
+    <string name="register2">Register !!</string>
+</resources>

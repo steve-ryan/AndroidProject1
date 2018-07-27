@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Booking"
+    android:background="@drawable/logo">
+
+    <TextView
+        android:id="@+id/txTime"
+        android:layout_width="168dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginTop="19dp"
+        android:background="#facb12"
+        android:text="@string/am" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="151dp"
+        android:layout_height="145dp"
+        android:layout_alignEnd="@+id/txTime"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="103dp">
+
+        <RadioButton
+            android:id="@+id/rButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="checkButton"
+            android:text="@string/twasija_sacco" />
+
+        <RadioButton
+            android:id="@+id/rButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="checkButton"
+            android:text="@string/rog_sacco" />
+
+        <RadioButton
+            android:id="@+id/rButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="checkButton"
+            android:text="@string/msafiri_sacco" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etTrans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="164dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:hint="@string/transaction_code"
+        android:inputType="textPersonName"
+        android:text="@string/transaction_code" />
+
+    <Button
+        android:id="@+id/bBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="72dp"
+        android:layout_marginStart="42dp"
+        android:background="#00f00f"
+        android:text="@string/book" />
+
+    <Button
+        android:id="@+id/bCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_toStartOf="@+id/bLogout"
+        android:background="#0000ff"
+        android:text="@string/cancel" />
+
+    <Button
+        android:id="@+id/bLogout"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/bBook"
+        android:layout_marginEnd="14dp"
+        android:background="#0000ff"
+        android:text="@string/logout" />
+
+</android.widget.RelativeLayout>
